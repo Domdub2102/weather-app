@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Frontend App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <h1>Weather App</h1>
+            <div class="search">
+                <input id="cityInput" type="text" placeholder="Enter City"/>
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="results">
+                <img src=""/>
+                <h1 id="temperature"></h1>
+                <h3 id="weather-description"></h3> 
+                <div class="extra-info">
+                    <div>
+                        <p>Feels Like</p>
+                        <p id="feels-like"></p>
+                    </div>
+                    <div>
+                        <p>Humidity</p>
+                        <p id="humidity"></p>
+                    </div>
+                    <div>
+                        <p>Wind Speed</p>
+                        <p id="wind-speed"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        window.env = {
+            API_KEY: '2e9f7fad0be0ba727d78f2ef9be7ad34'
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

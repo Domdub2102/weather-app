@@ -1,0 +1,36 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.extra-info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.extra-info > div {
+    border: none;
+    border-radius: 5px;
+    background-color: azure;
+    padding: 10px;
+    margin: 0;
+}
+
+.extra-info > div > p {
+    margin: 0;
+}
