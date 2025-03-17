@@ -16,6 +16,23 @@ body {
     padding: 10px;
 }
 
+.search > input, button {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.results {
+    display: none;
+}
+
+.results > img {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.results > h1 {
+    margin: 0;
+}
+
 .extra-info {
     width: 100%;
     display: grid;
